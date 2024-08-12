@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tcdc-ip
+  namespace: tcdc
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tcdc-ip
+  template:
+    metadata:
+      labels:
+        app: tcdc-ip
+    spec:
+      containers:
+        - name: tcdc-ip
+          image: gcr.io/centered-cursor-392711/website/tcdc:10 #tcdcdeploy10
+          # resources:
+          #   requests:
+          #     memory: "1Gi"
+          #     cpu: "0.5"
+          #   limits:
+          #     memory: "2Gi"
+          #     cpu: "1"
+          ports:
+            - containerPort: 3000
+      restartPolicy: Always
