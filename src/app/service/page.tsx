@@ -3,7 +3,7 @@ import Service from '@/components/services/service';
 import Wrapper from '@/layout/Wrapper'; 
 
 export const metadata = {
-  title: "Service MediDove React Next js Tempalte",
+  title: "General Dentist in Milpitas, CA",
 };
 
 

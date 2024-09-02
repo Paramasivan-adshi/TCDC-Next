@@ -185,7 +185,7 @@ p {
 	margin-bottom: 15px;
 }
 hr {
-	border-bottom: 1px solid #eceff8;
+	border-bottom: 1px solid #223645 !important;
 	border-top: 0 none;
 	margin: 30px 0;
 	padding: 0;
@@ -892,6 +892,27 @@ input.main-search-input:-ms-input-placeholder {
 .about-front-img img{
 	width: 100%;
 }
+section.about-area img {
+    width: auto !important;
+	height: auto;
+
+}
+.benefit-item h2.card-title {
+    font-size: 22px;
+}
+.benefit-item p{
+	color: #13232f;
+    font-family: "Poppins";
+    font-size: 16px;
+    max-width: 1000px !important;
+    margin: 0 auto;
+}
+
+.benefit-item.card {
+    background: #eeeeee;
+    border: none;
+    border-radius: 10px;
+}
 .about-title h5 {
 	margin-bottom: 27px;
 }
@@ -920,10 +941,35 @@ input.main-search-input:-ms-input-placeholder {
 	padding-right: 73px;
 }
 .facalty-text p {
-	line-height: 26px;
-	padding-top: 25px;
-	padding-right: 25px;
-	padding-left: 25px;
+    line-height: 26px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 18px;
+    color: #13232f;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+ul.listbox .col-6.d-flex.p-2 {
+    float: left;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+ul.listbox li {
+    background: rgba(19, 35, 47, 0.94);
+    /* padding: 20px; */
+    height: 66px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 455px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
 }
 .about-text-list ul li {
 	margin-bottom: 20px;
@@ -1723,6 +1769,8 @@ li.price-del i {
 	padding: 60px;
 	padding-bottom: 55px;
 	margin-top: -226px;
+	z-index: 999;
+    position: relative;
 }
 .footer-contact-info-3 {
 	margin-top: 0;
@@ -1883,6 +1931,19 @@ li.price-del i {
 }
 .page-title h2 {
 	font-size: 60px;
+}
+.comprehensive-text h1 {
+    font-size: 36px;
+    letter-spacing: -0.3px;
+    line-height: 1.22;
+    text-align: center;
+    /* border-bottom: 1px solid; */
+}
+.comprehensive-text h2 {
+    font-size: 20px;
+    color: #13232f;
+    text-align: center;
+    font-weight: 500;
 }
 .page-height {
 	min-height: 500px;
@@ -4085,6 +4146,22 @@ td.product-thumbnail img {
 	text-transform: uppercase;
 	transition: all 0.3s ease 0s;
 }
+.routinecheck {
+    color: #13232f;
+    font-family: "Poppins";
+    font-size: 16px;
+    max-width: 1000px !important;
+    margin: 0 auto;
+}
+.section-title.appointmentDesc h1 {
+    margin-bottom: 18px;
+    line-height: 1.2;
+    font-size: 16px;
+}
+.about-area.abt-bg{
+    background: #e1e1e194;
+
+}
 p.lost-password {
 	margin-top: 15px;
 }
@@ -4529,6 +4606,16 @@ p.checkout-coupon input[type="text"] {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	visibility: visible;
 	top: 30px;
+}
+.comprehensive-text h1::after{
+	content: '';
+	border-color: #223645;
+    border-width: 2px;
+    width: 50%;
+    border-style: solid;
+    color: #223645;
+    margin: 20px auto;
+	display: flex;
 }
 .portfolio-caption {
 	left: 0;

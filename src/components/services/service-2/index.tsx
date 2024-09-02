@@ -4,7 +4,7 @@ import React from 'react';
 import ServiceAboutArea from '../service/ServiceAboutArea';
 import ServiceTwoServicesArea from './ServiceTwoServicesArea';
 import ServiceCalculateArea from '../service/ServiceCalculateArea';
-import ServiceHiringArea from '../service/ServiceHiringArea';
+import ServiceHiringArea from '../service/ServiceBenefits';
 import FooterThree from '@/layout/footers/FooterThree';
 
 const ServiceTwo = () => {

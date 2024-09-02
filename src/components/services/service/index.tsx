@@ -3,21 +3,26 @@ import Breadcrumb from '@/components/common/breadcrumb/Breadcrumb';
 import HeaderOne from '@/layout/headers/HeaderOne';
 import React from 'react';
 import ServiceAboutArea from './ServiceAboutArea';
-import ServiceCalculateArea from './ServiceCalculateArea';
-import ServiceHiringArea from './ServiceHiringArea';
+import ServiceComprehensive from './ServiceComprehensive';
+import ServiceBenefits from './ServiceBenefits';
 import FooterThree from '@/layout/footers/FooterThree';
+import FooterOne from '@/layout/footers/FooterOne';
+import ScheduleAppointment from './ScheduleAppointment';
+
 
 const Service = () => {
   return (
     <>
       <HeaderOne />
       <main>
-        <Breadcrumb sub_title='We are here for your care.' title='Our Services' page='Services' />
+        <Breadcrumb sub_title='' title='General Dentist in Milpitas, CA' page='Services' />
         <ServiceAboutArea />
-        <ServiceCalculateArea />
-        <ServiceHiringArea />
+        <ServiceComprehensive />
+        <ServiceBenefits />
+        <ScheduleAppointment />
+    
       </main>
-      <FooterThree />
+      <FooterOne />
     </>
   );
 };

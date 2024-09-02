@@ -43,7 +43,7 @@ const AboutAreaHomeOne = () => {
               </div>
             </div>
             <div className="col-xl-6 col-lg-7">
-              <div className="about-right-side pt-55 mb-30">
+              <div className="about-right-side pt-30 mb-30">
                 <div className="about-title mb-20">
                   <h5>{sub_title}</h5>
                   <h1>{title}</h1>

@@ -66,7 +66,7 @@
 }
  .logo-circle::before {
      position: absolute;
-     content: "";
+
      border: 47px solid #fff;
      left: -35px;
      width: 150px;
@@ -74,6 +74,7 @@
      top: -35px;
      border-radius: 100%;
      z-index: 1;
+     display: none;
 }
  .header__menu ul li {
      display: inline-block;
