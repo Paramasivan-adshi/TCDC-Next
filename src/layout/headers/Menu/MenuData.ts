@@ -14,7 +14,7 @@ const MenuData: MenuDataType[] = [
   {
     id: 1,
     title: "Home",
-    link: "#",
+    link: "/",
     has_dropdown: false, 
     sub_menus: [
     ],
@@ -25,7 +25,7 @@ const MenuData: MenuDataType[] = [
     link: "#",
     has_dropdown: true, 
     sub_menus: [
-      { link: "https://www.tcdc-cesarsimon.com/services/general-dentistry/", title: "General Dentistry" },
+      { link: "/service/general-dentistry", title: "General Dentistry" },
       { link: "https://www.tcdc-cesarsimon.com/services/orthodontics/", title: "Orthodontics" },
       { link: "https://www.tcdc-cesarsimon.com/services/cosmetic-dentistry/", title: "Cosmetic Dentistry" },
       { link: "https://www.tcdc-cesarsimon.com/services/dental-implants/", title: "Dental Implants" },

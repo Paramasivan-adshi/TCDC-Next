@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faYelp } from '@fortawesome/free-brands-svg-icons';
 import { faNewspaper, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css'; // Import the CSS
+import "../../../public/assets/css/service.css"
 
 // Make sure the FontAwesome library is initialized
 import { config } from '@fortawesome/fontawesome-svg-core';
@@ -69,7 +70,7 @@ const footer_content: FooterContentDatatype = {
 
 const { number_text, number, sm_info, email, website, address, footer_links } = footer_content
 
-const FooterOne = () => {
+const FooterFive = () => {
   return (
     <>
       <footer>
@@ -77,7 +78,7 @@ const FooterOne = () => {
           <div className="container">
             <div className="row">
               <div className="col-xl-5 col-lg-6 col-md-8">
-                <div className="footer-contact-info mb-30">
+                <div className="footer-contact-404 mb-30">
                   <div className="emmergency-call fix">
                     <div className="emmergency-call-icon f-left">
                       <i className="fas fa-phone"></i>
@@ -135,4 +136,4 @@ const FooterOne = () => {
   );
 };
 
-export default FooterOne;
+export default FooterFive;

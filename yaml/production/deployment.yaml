@@ -15,7 +15,8 @@ spec:
     spec:
       containers:
         - name: tcdc-ip
-          image: gcr.io/centered-cursor-392711/website/tcdc:11 #tcdcdeploy11
+          image: gcr.io/centered-cursor-392711/website/tcdc:13.1 
+          # image: gcr.io/centered-cursor-392711/website/tcdc:11 #tcdcdeploy11
           # resources:
           #   requests:
           #     memory: "1Gi"

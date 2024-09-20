@@ -8,6 +8,7 @@ import ServiceBenefits from './ServiceBenefits';
 import FooterThree from '@/layout/footers/FooterThree';
 import FooterOne from '@/layout/footers/FooterOne';
 import ScheduleAppointment from './ScheduleAppointment';
+import "../../../../public/assets/css/service.css";
 
 
 const Service = () => {

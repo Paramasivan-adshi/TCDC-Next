@@ -34,8 +34,8 @@ const ServiceAboutArea = ({ service_2 }: any) => {
 
             <div className="col-xl-6 col-lg-6 col-md-12  pt-30" style={{ height: '412px' }}>
               <div className="section-title section-title-m-0 pos-rel mb-50 text-end">
-                <div className="section-icon">
-            <Image src={about_right} height={300} width={693} alt="General Dentistry About" />
+                <div className="section-icon service-about">
+            <Image src={about_right} height={280} width={650} alt="General Dentistry About" />
                 </div>
               </div>
             </div>
